@@ -60,6 +60,14 @@
     <Compile Include="Migrations\202005220104093_AddBasketAndBasketItemTable.designer.cs">
       <DependentUpon>202005220104093_AddBasketAndBasketItemTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005221409239_AddCustomerTable.cs" />
+    <Compile Include="Migrations\202005221409239_AddCustomerTable.designer.cs">
+      <DependentUpon>202005221409239_AddCustomerTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005230256562_AddStateColumn.cs" />
+    <Compile Include="Migrations\202005230256562_AddStateColumn.designer.cs">
+      <DependentUpon>202005230256562_AddStateColumn.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQLRepository.cs" />
@@ -80,6 +88,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005220104093_AddBasketAndBasketItemTable.resx">
       <DependentUpon>202005220104093_AddBasketAndBasketItemTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005221409239_AddCustomerTable.resx">
+      <DependentUpon>202005221409239_AddCustomerTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005230256562_AddStateColumn.resx">
+      <DependentUpon>202005230256562_AddStateColumn.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
