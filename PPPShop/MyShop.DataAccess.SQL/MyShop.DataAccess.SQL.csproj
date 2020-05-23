@@ -68,6 +68,10 @@
     <Compile Include="Migrations\202005230256562_AddStateColumn.designer.cs">
       <DependentUpon>202005230256562_AddStateColumn.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005230550381_AddOrderORderItemsTable.cs" />
+    <Compile Include="Migrations\202005230550381_AddOrderORderItemsTable.designer.cs">
+      <DependentUpon>202005230550381_AddOrderORderItemsTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQLRepository.cs" />
@@ -94,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005230256562_AddStateColumn.resx">
       <DependentUpon>202005230256562_AddStateColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005230550381_AddOrderORderItemsTable.resx">
+      <DependentUpon>202005230550381_AddOrderORderItemsTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
